@@ -2,8 +2,8 @@ const express = require('express')
 const { UrlHundler } = require('./lib/func');
 
 
-process.env['aws_access_key_id'] = 'AKIAYRZK6NT6QHLZEI43';
-process.env['aws_secret_access_key'] = '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';
+process.env['aws_access_key_id'] = '';
+process.env['aws_secret_access_key'] = '';
 
 const app = express();
 
