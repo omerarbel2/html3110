@@ -1,0 +1,24 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest  --config ./jest.config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1018.0",
+    "express": "^4.17.1",
+    "jest": "^27.3.1",
+    "lusha-mock-parser": "^1.0.0",
+    "mysql": "^2.18.1",
+    "sqs-consumer": "^5.6.0",
+    "valid-url": "^1.0.9"
+  }
+}
